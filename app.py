@@ -50,7 +50,7 @@ menu_option = st.sidebar.selectbox(
 
 
 if menu_option == 'Home':
-    st.title('Breast Caner Recurrance Event Prediction Using ML')
+    st.title('Breast Cancer Recurrance Event Prediction Using ML')
     st.write('This project harnesses the power of machine learning to predict the likelihood of an individual having  recurrence of Breast Cancer ' \
     'based on key health indicators. By analyzing a dataset of patient information including factors like age, tumor size, inv-nodes , irradiat , menopause, breast quad, node-caps and many others. Our Predictive model provides a data-driven risk assessment.')
     st.title('')
@@ -110,4 +110,5 @@ else:
     if prediction==1:
         st.write('Patient is likely to have Recurrence Cancer')
     else:
+
         st.write('Patient is likely not to have Recurrence Cancer')

@@ -57,7 +57,7 @@ if menu_option == 'Home':
     st.write("Developed By : Fahad Farooq")
 else:
     #streamlit app
-    st.title("Breast Caner Recurrance Prediction")
+    st.title("Breast Cancer Recurrance Prediction")
 
 
     #user input
@@ -112,3 +112,4 @@ else:
     else:
 
         st.write('Patient is likely not to have Recurrence Cancer')
+
